@@ -1,0 +1,15 @@
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\bin\Debug\net6.0\appsettings.json
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\bin\Debug\net6.0\ManageLibrary.deps.json
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\bin\Debug\net6.0\ManageLibrary.dll
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\bin\Debug\net6.0\ManageLibrary.pdb
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ManageLibrary.csproj.AssemblyReference.cache
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ManageLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ManageLibrary.AssemblyInfoInputs.cache
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ManageLibrary.AssemblyInfo.cs
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ManageLibrary.csproj.CoreCompileInputs.cache
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ManageLibrary.dll
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\refint\ManageLibrary.dll
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ManageLibrary.pdb
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ref\ManageLibrary.dll
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\bin\Debug\net6.0\ManageLibrary.runtimeconfig.json
+D:\PRN221\Final Project\Final_Project_PRN221\ManageLibrary\obj\Debug\net6.0\ManageLibrary.genruntimeconfig.cache

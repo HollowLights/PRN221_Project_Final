@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\beer.png" />
+    <None Remove="Images\coca.png" />
+    <None Remove="Images\download.jpg" />
+    <None Remove="Images\furyCarbon.png" />
+    <None Remove="Images\furyCw3.png" />
+    <None Remove="Images\furyCw4.png" />
+    <None Remove="Images\hamburger.png" />
+    <None Remove="Images\kAlpha.png" />
+    <None Remove="Images\kApha.png" />
+    <None Remove="Images\kBeta.png" />
+    <None Remove="Images\laySnack.png" />
+    <None Remove="Images\lemonTea.png" />
+    <None Remove="Images\milkTea.png" />
+    <None Remove="Images\mirinda.png" />
+    <None Remove="Images\noodles.png" />
+    <None Remove="Images\nutriBoost.png" />
+    <None Remove="Images\OstarSnack.png" />
+    <None Remove="Images\peachTea.png" />
+    <None Remove="Images\pepsi.png" />
+    <None Remove="Images\rhino.png" />
+    <None Remove="Images\sandwich.png" />
+    <None Remove="Images\SGCigarette.png" />
+    <None Remove="Images\sting.png" />
+    <None Remove="Images\T3.jpg" />
+    <None Remove="Images\table.png" />
+    <None Remove="Images\TLCigarette.png" />
+    <None Remove="Images\vipTable.png" />
+    <None Remove="Images\wetWipes.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library\Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\beer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\coca.png" />
+    <Resource Include="Images\download.jpg" />
+    <Resource Include="Images\furyCarbon.png" />
+    <Resource Include="Images\furyCw3.png" />
+    <Resource Include="Images\furyCw4.png" />
+    <Resource Include="Images\hamburger.png" />
+    <Resource Include="Images\kAlpha.png" />
+    <Resource Include="Images\kBeta.png" />
+    <Resource Include="Images\laySnack.png" />
+    <Resource Include="Images\lemonTea.png" />
+    <Resource Include="Images\milkTea.png" />
+    <Resource Include="Images\mirinda.png" />
+    <Resource Include="Images\noodles.png" />
+    <Resource Include="Images\nutriBoost.png" />
+    <Resource Include="Images\OstarSnack.png" />
+    <Resource Include="Images\peachTea.png" />
+    <Resource Include="Images\pepsi.png" />
+    <Resource Include="Images\rhino.png" />
+    <Resource Include="Images\sandwich.png" />
+    <Resource Include="Images\SGCigarette.png" />
+    <Resource Include="Images\sting.png" />
+    <Resource Include="Images\T3.jpg" />
+    <Resource Include="Images\table.png" />
+    <Resource Include="Images\TLCigarette.png" />
+    <Resource Include="Images\vipTable.png" />
+    <Resource Include="Images\wetWipes.png" />
+  </ItemGroup>
+
+</Project>

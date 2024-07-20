@@ -1,0 +1,47 @@
+﻿<Page x:Class="Final_Project_PRN221.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Final_Project_PRN221"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HomePage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Height="60" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="100,0,0,50">
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0" VerticalAlignment="Bottom">
+                <Label Content="Table:" />
+                <ComboBox x:Name="cbActive" SelectedIndex="0" Height="25" Width="100"
+                          DropDownClosed="cbActive_DropDownClosed">
+                    <ComboBoxItem Tag="0">All</ComboBoxItem>
+                    <ComboBoxItem Tag="1">Active</ComboBoxItem>
+                    <ComboBoxItem Tag="2">In-Active</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="0" Height="60" Orientation="Vertical" HorizontalAlignment="Right" Margin="0,0,100,50">
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="txtSearch" Width="200" Height="25" TextChanged="txtSearch_TextChanged"/>
+                <Button Name="btnSearch" Content="Search" Width="50" Height="25"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                <Label Content="Number Table in row:" />
+                <ComboBox x:Name="cbTableInRow" Height="25" DropDownClosed="cbTableInRow_DropDownClosed">
+                    <ComboBoxItem>3</ComboBoxItem>
+                    <ComboBoxItem>4</ComboBoxItem>
+                    <ComboBoxItem>5</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+        <!-- Row 1 -->
+        <ScrollViewer x:Name="scrTable" Grid.Row="1" VerticalAlignment="Stretch">
+        </ScrollViewer>
+    </Grid>
+</Page>

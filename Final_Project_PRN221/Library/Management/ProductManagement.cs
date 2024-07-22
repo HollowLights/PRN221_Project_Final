@@ -1,9 +1,4 @@
 ﻿using Library.DataAccess;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library.Management
 {
@@ -56,7 +51,7 @@ namespace Library.Management
         }
 
         public List<dynamic> getProductByFilter
-            (string textSearch,string category, string orderBy)
+            (string textSearch, string category, string orderBy)
         {
             using (FinalProjectPrn221Context context = new FinalProjectPrn221Context())
             {
@@ -73,28 +68,30 @@ namespace Library.Management
                             CategoryId = o.CategoryId,
                             CategoryName = o.Category.Name
                         });
-                    if(textSearch.Trim() != "")
+                    if (textSearch.Trim() != "")
                     {
-                        list = list.Where(o=> o.Name.ToLower().Contains(textSearch.ToLower())
+                        list = list.Where(o => o.Name.ToLower().Contains(textSearch.ToLower())
                         || o.CategoryName.ToLower().Contains(textSearch.ToLower()));
                     }
-                    if(category != "")
+                    if (category != "")
                     {
-                        list = list.Where(o=>o.CategoryId.ToString().Equals(category));
+                        list = list.Where(o => o.CategoryId.ToString().Equals(category));
                     }
                     if (orderBy != "")
                     {
-                        if(orderBy == "1")
+                        if (orderBy == "1")
                         {
                             list = list.OrderBy(o => o.UnitPrice);
                         }
-                        else if(orderBy == "2")
+                        else if (orderBy == "2")
                         {
                             list = list.OrderByDescending(o => o.UnitPrice);
-                        }else if(orderBy == "3")
+                        }
+                        else if (orderBy == "3")
                         {
-                            list = list.OrderBy(o=>o.UnitsInStock);
-                        }else if (orderBy == "4")
+                            list = list.OrderBy(o => o.UnitsInStock);
+                        }
+                        else if (orderBy == "4")
                         {
                             list = list.OrderByDescending(o => o.UnitsInStock);
                         }
@@ -115,7 +112,7 @@ namespace Library.Management
             {
                 try
                 {
-                   context.Products.Add(product);
+                    context.Products.Add(product);
                     context.SaveChanges();
                     return true;
                 }
@@ -133,7 +130,7 @@ namespace Library.Management
                 try
                 {
                     Product product = context.Products.FirstOrDefault(o => o.Id == id);
-                    if(product != null)
+                    if (product != null)
                     {
                         context.Products.Remove(product);
                         context.SaveChanges();
@@ -155,7 +152,7 @@ namespace Library.Management
                 try
                 {
                     Product product = context.Products.FirstOrDefault(o => o.Id == id);
-                    if(product != null)
+                    if (product != null)
                     {
                         return product;
                     }
@@ -174,8 +171,8 @@ namespace Library.Management
             {
                 try
                 {
-                    Product _product = context.Products.FirstOrDefault(o=> o.Id == product.Id);
-                    if(_product != null)
+                    Product _product = context.Products.FirstOrDefault(o => o.Id == product.Id);
+                    if (_product != null)
                     {
                         _product.Name = product.Name;
                         _product.UnitPrice = product.UnitPrice;
@@ -248,7 +245,7 @@ namespace Library.Management
             int quantity = 0;
             foreach (OrderDetail item in list)
             {
-                if(item.ProductId == productId)
+                if (item.ProductId == productId)
                 {
                     quantity = item.Quantity;
                 }
@@ -313,6 +310,14 @@ namespace Library.Management
                 {
                     throw ex;
                 }
+            }
+        }
+
+        public Product getProductByName(string productName)
+        {
+            using (FinalProjectPrn221Context context = new FinalProjectPrn221Context())
+            {
+                return context.Products.FirstOrDefault(c => c.Name.Equals(productName));
             }
         }
     }

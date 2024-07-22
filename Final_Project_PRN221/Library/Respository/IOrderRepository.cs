@@ -1,9 +1,4 @@
 ﻿using Library.DataAccess;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library.Respository
 {
@@ -23,5 +18,6 @@ namespace Library.Respository
         public double getCurrentTableFee(int orderId, DateTime endTime);
         public bool updateOrder(Order order);
         public Order getOrderById(int id);
+        public Order getLastestOrderOfTable(int tableId);
     }
 }

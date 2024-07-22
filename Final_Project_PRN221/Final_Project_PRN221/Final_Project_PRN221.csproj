@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="beer.png" />
     <None Remove="Images\beer.png" />
     <None Remove="Images\coca.png" />
     <None Remove="Images\download.jpg" />
@@ -36,10 +37,13 @@
     <None Remove="Images\TLCigarette.png" />
     <None Remove="Images\vipTable.png" />
     <None Remove="Images\wetWipes.png" />
+    <None Remove="laySnack.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="111.4.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,6 +51,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="beer.png" />
     <Resource Include="Images\beer.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -76,6 +81,7 @@
     <Resource Include="Images\TLCigarette.png" />
     <Resource Include="Images\vipTable.png" />
     <Resource Include="Images\wetWipes.png" />
+    <Resource Include="laySnack.png" />
   </ItemGroup>
 
 </Project>

@@ -1,14 +1,9 @@
 ﻿using Library.DataAccess;
 using Library.Management;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library.Respository
 {
-    public class ProductRepository:IProductRepository
+    public class ProductRepository : IProductRepository
     {
         public List<dynamic> getProductList()
             => ProductManagement.Instance.getProductList();
@@ -27,6 +22,9 @@ namespace Library.Respository
             => ProductManagement.Instance.getProductListInOrder(orderId);
         public List<dynamic> getProductListItemByFilter
             (string textSearch, string category, string orderBy, int orderId)
-            => ProductManagement.Instance.getProductListItemByFilter(textSearch, category, orderBy, orderId);     
+            => ProductManagement.Instance.getProductListItemByFilter(textSearch, category, orderBy, orderId);
+
+        public Product getProductByName(string name)
+            => ProductManagement.Instance.getProductByName(name);
     }
 }

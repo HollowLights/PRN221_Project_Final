@@ -1,9 +1,4 @@
 ﻿using Library.DataAccess;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library.Respository
 {
@@ -19,5 +14,6 @@ namespace Library.Respository
         public List<dynamic> getProductListInOrder(int orderId);
         public List<dynamic> getProductListItemByFilter
             (string textSearch, string category, string orderBy, int orderId);
+        public Product getProductByName(string name);
     }
 }

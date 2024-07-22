@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace Library.DataAccess;
@@ -29,6 +27,9 @@ public partial class FinalProjectPrn221Context : DbContext
     public virtual DbSet<Table> Tables { get; set; }
 
     public virtual DbSet<Type> Types { get; set; }
+
+    public virtual DbSet<PreOrder> PreOrders { get; set; }
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

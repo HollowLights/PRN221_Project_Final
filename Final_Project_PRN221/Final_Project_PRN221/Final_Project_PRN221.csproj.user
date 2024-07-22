@@ -37,10 +37,16 @@
     <Compile Update="OrdersPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PreOrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ProductMenuWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ProductsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Test.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViewOrderOfTableWindow.xaml.cs">
@@ -81,10 +87,16 @@
     <Page Update="OrdersPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PreOrderWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ProductMenuWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ProductsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Test.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViewOrderOfTableWindow.xaml">

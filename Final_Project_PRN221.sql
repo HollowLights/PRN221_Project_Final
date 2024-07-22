@@ -109,6 +109,16 @@ CREATE TABLE OrderDetail
 )
 GO
 
+CREATE TABLE PreOrders
+(
+	Id				INT IDENTITY PRIMARY KEY NOT NULL,
+	TableId			INT FOREIGN KEY REFERENCES [Table](Id) NOT NULL,
+	OrderDate		DATE NULL,
+	AccountId		INT FOREIGN KEY REFERENCES Account(Id) NULL,
+	Customer		VARCHAR(50) NOT NULL,
+)
+GO
+
 SET IDENTITY_INSERT Account ON
 INSERT INTO Account(Id,FullName,[User],[Password],[Role])
 VALUES
@@ -236,6 +246,12 @@ VALUES
     (9, 2, 2),
     (9, 3, 1),
     (10, 4, 2);
+GO
+
+INSERT INTO PreOrders (TableId, OrderDate, AccountId, Customer)
+VALUES 
+(1, '2024-07-21', 1, 'Thinh'),
+(1, '2024-07-22', 1, 'Thinh');
 GO
 
 

@@ -1,14 +1,9 @@
 ﻿using Library.DataAccess;
 using Library.Management;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library.Respository
 {
-    public class OrderRepository :IOrderRepository
+    public class OrderRepository : IOrderRepository
     {
         public List<dynamic> getOrderList()
             => OrderManagement.Instance.getOrderList();
@@ -34,7 +29,11 @@ namespace Library.Respository
             => OrderManagement.Instance.getCurrentTableFee(orderId, endTime);
         public bool updateOrder(Order order)
             => OrderManagement.Instance.updateOrder(order);
-        public Order getOrderById(int id) 
+        public Order getOrderById(int id)
             => OrderManagement.Instance.getOrderById(id);
+
+        public Order getLastestOrderOfTable(int tableId)
+            => OrderManagement.Instance.getOrderById(tableId);
+
     }
 }

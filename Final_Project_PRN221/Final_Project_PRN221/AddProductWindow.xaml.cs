@@ -2,19 +2,10 @@
 using Library.Respository;
 using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using System.IO;
 
 namespace Final_Project_PRN221
 {
@@ -69,7 +60,7 @@ namespace Final_Project_PRN221
         }
 
 
-        private void btnCancle_Click(object sender, RoutedEventArgs e)
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
             if (isAdd)
             {
@@ -109,11 +100,15 @@ namespace Final_Project_PRN221
             }
 
             if (string.IsNullOrEmpty(name)
-                ||string.IsNullOrEmpty(_price)
-                ||string.IsNullOrEmpty(_stock)
-                ||string.IsNullOrEmpty(fileName))
+                || string.IsNullOrEmpty(_price)
+                || string.IsNullOrEmpty(_stock)
+                || string.IsNullOrEmpty(fileName))
             {
                 tbAdd.Text = "All fields cannot be left blank.";
+            }
+            else if (productRepository.getProductByName(name) != null)
+            {
+                tbAdd.Text = "Product already exist!";
             }
             else
             {

@@ -42,7 +42,7 @@ namespace Final_Project_PRN221
             }
         }
 
-        private void btnCancle_Click(object sender, RoutedEventArgs e)
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
             if (isChangePass)
             {

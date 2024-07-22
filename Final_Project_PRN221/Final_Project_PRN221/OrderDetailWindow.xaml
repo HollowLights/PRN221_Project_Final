@@ -74,7 +74,7 @@
 
             <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" 
                         Orientation="Horizontal" Height="25">
-                <Button x:Name="btnBacK" Content="Cancle" Width="100" Margin="30,0" Click="btnBacK_Click" />
+                <Button x:Name="btnBacK" Content="Cancel" Width="100" Margin="30,0" Click="btnBacK_Click" />
             </StackPanel>
         </Grid>
     </Grid>

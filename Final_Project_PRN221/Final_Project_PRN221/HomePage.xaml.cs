@@ -3,16 +3,10 @@ using Library.Respository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Final_Project_PRN221
 {
@@ -62,6 +56,7 @@ namespace Final_Project_PRN221
             StackPanel outerStackPanel = new StackPanel();
             outerStackPanel.Orientation = Orientation.Vertical;
             outerStackPanel.Margin = new Thickness(100, 0, 100, 100);
+            ITableRepository tableRepository = new TableRepository();
 
             int i = 0;
             int tableCount = 0;
@@ -102,6 +97,17 @@ namespace Final_Project_PRN221
                 btnStart.Margin = new Thickness(10, 5, 10, 0);
                 buttonPanel.Children.Add(btnStart);
 
+                // Add PreOrder button
+                Button btnPreOrder = new Button();
+                btnPreOrder.Name = "btnPreOrder";
+                btnPreOrder.Content = "Pre-Order";
+                btnPreOrder.Tag = table.Id;
+                btnPreOrder.Padding = new Thickness(5);
+                btnPreOrder.MinWidth = 70;
+                btnPreOrder.Margin = new Thickness(10, 5, 10, 0);
+                btnPreOrder.Click += BtnPreOrder_Click;
+                buttonPanel.Children.Add(btnPreOrder);
+
                 Button btnOrder = new Button();
                 btnOrder.Visibility = Visibility.Collapsed;
                 btnOrder.Name = "btnOrder";
@@ -113,17 +119,31 @@ namespace Final_Project_PRN221
                 btnOrder.Click += BtnOrder_Click;
                 buttonPanel.Children.Add(btnOrder);
 
-                if (table.IsOn == true)
+                bool hasPreOrder = tableRepository.checkPreOrder(table.Id, DateTime.Now);
+
+                if (table.IsOn == true && !hasPreOrder)
                 {
                     btnStart.Background = new SolidColorBrush(Colors.GreenYellow);
                     btnStart.Content = "View";
                     image.Opacity = 0.5;
                     btnOrder.Visibility = Visibility.Visible;
                     btnStart.Click += BtnView_Click;
+                    btnStart.IsEnabled = true;
                 }
                 else
                 {
-                    btnStart.Click += BtnStart_Click;
+                    if (hasPreOrder)
+                    {
+                        tableRepository.setTableActive(table.Id, true);
+                        btnStart.IsEnabled = false;
+                        image.Opacity = 0.5;
+                        btnOrder.Visibility = Visibility.Collapsed;
+                    }
+                    else
+                    {
+                        btnStart.Click += BtnStart_Click;
+                        btnStart.IsEnabled = true;
+                    }
                 }
 
                 innerStackPanel.Children.Add(buttonPanel);
@@ -182,7 +202,7 @@ namespace Final_Project_PRN221
                 Button btnOrder;
                 foreach (Button btn in parentBtn.Children)
                 {
-                    if(btn != btnStart)
+                    if (btn != btnStart)
                     {
                         btnOrder = (Button)btn;
                         btnOrder.Visibility = Visibility.Visible;
@@ -239,6 +259,16 @@ namespace Final_Project_PRN221
 
             scrTable.Content = getOuterStackPanel(tableList);
 
+        }
+
+        private void BtnPreOrder_Click(object sender, RoutedEventArgs e)
+        {
+            Button btnPreOrder = sender as Button;
+            int tableId = int.Parse(btnPreOrder.Tag.ToString());
+
+            // Create and open the OrderDetailWindow
+            PreOrderWindow preOrderWindow = new PreOrderWindow(tableId);
+            preOrderWindow.ShowDialog();
         }
     }
 }

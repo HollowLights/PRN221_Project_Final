@@ -1,10 +1,4 @@
 ﻿using Library.DataAccess;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library.Management
 {
@@ -51,7 +45,7 @@ namespace Library.Management
                             * (Convert.ToDouble(o.Table.Type.PricePerHour))) * (1 - o.Discount / 100),
                             OrderById = o.OrderBy,
                             OrderBy = o.Account.FullName
-                        }).Where(o=>o.EndTime != o.StartTime).OrderByDescending(o => o.Id);
+                        }).Where(o => o.EndTime != o.StartTime).OrderByDescending(o => o.Id);
 
                     return list.Cast<dynamic>().ToList();
                 }
@@ -114,7 +108,7 @@ namespace Library.Management
         public double getTotalHoursOrder(DateTime startTime, DateTime endTime)
         {
             double totalHours = (endTime - startTime).TotalHours;
-            if(totalHours < 0.25)
+            if (totalHours < 0.25)
             {
                 totalHours = 0.25;
             }
@@ -136,7 +130,7 @@ namespace Library.Management
                     throw ex;
                 }
             }
-            return Math.Round(total,2);
+            return Math.Round(total, 2);
         }
 
         public double getTableFee(int id)
@@ -151,7 +145,7 @@ namespace Library.Management
                         .Select(o => manage.getTotalHoursOrder(o.StartTime, o.EndTime)
                             * Convert.ToDouble(o.Table.Type.PricePerHour))
                         .FirstOrDefault();
-                    return Math.Round(tableFee,2);
+                    return Math.Round(tableFee, 2);
                 }
                 catch (Exception ex)
                 {
@@ -187,7 +181,7 @@ namespace Library.Management
             {
                 try
                 {
-                    var order = context.Orders.Where(o=> o.Id ==id).Select(
+                    var order = context.Orders.Where(o => o.Id == id).Select(
                         o => new
                         {
                             Id = o.Id,
@@ -241,12 +235,14 @@ namespace Library.Management
 
         public bool createNewOrder(int tableId)
         {
+            DateTime time = DateTime.Now;
+
             Order order = new Order()
             {
                 Id = 0,
                 TableId = tableId,
-                StartTime = DateTime.Now,
-                EndTime = DateTime.Now,
+                StartTime = time,
+                EndTime = time,
             };
             using (FinalProjectPrn221Context context = new FinalProjectPrn221Context())
             {
@@ -270,9 +266,9 @@ namespace Library.Management
                 try
                 {
                     OrderDetail _orderDetail = context.OrderDetails.
-                        FirstOrDefault(o=> o.OrderId == orderDetail.OrderId 
+                        FirstOrDefault(o => o.OrderId == orderDetail.OrderId
                         && o.ProductId == orderDetail.ProductId);
-                    if(_orderDetail != null)
+                    if (_orderDetail != null)
                     {
                         _orderDetail.Quantity = orderDetail.Quantity;
                         context.SaveChanges();
@@ -299,8 +295,8 @@ namespace Library.Management
                 try
                 {
                     Order order = context.Orders.
-                        FirstOrDefault(o=> o.TableId == tableId
-                        && o.StartTime ==o.EndTime);
+                        FirstOrDefault(o => o.TableId == tableId
+                        && o.StartTime == o.EndTime);
                     return order.Id;
                 }
                 catch (Exception ex)
@@ -322,7 +318,7 @@ namespace Library.Management
                         .Select(o => manage.getTotalHoursOrder(o.StartTime, endTime)
                             * Convert.ToDouble(o.Table.Type.PricePerHour))
                         .FirstOrDefault();
-                    return Math.Round(tableFee,2);
+                    return Math.Round(tableFee, 2);
                 }
                 catch (Exception ex)
                 {
@@ -371,5 +367,25 @@ namespace Library.Management
                 }
             }
         }
+
+        public Order getLastestOrderOfTable(int tableId)
+        {
+            using (FinalProjectPrn221Context context = new FinalProjectPrn221Context())
+            {
+                try
+                {
+                    return context.Orders
+                        .Where(o => o.TableId == tableId)
+                        .OrderByDescending(o => o.Id)
+                        .FirstOrDefault();
+                }
+                catch (Exception ex)
+                {
+                    // Log the exception or handle it as needed
+                    throw new Exception("An error occurred while retrieving the latest order.", ex);
+                }
+            }
+        }
+
     }
 }

@@ -1,81 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\",
+  "WorkspaceRootPath": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\preorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\preorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\management\\tablemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\management\\tablemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\preorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\management\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\management\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\respository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\respository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\respository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\respository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\preorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\preorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\preorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\preorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\AppData\\Local\\SourceServer\\de4a98e06ff77db47d7ad83468144f999ee6e2b29c32fe5e5d55799be44e39f6\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\library\\management\\tablemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\management\\tablemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\vieworderoftablewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\vieworderoftablewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\vieworderoftablewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\test.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\test.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\test.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\vieworderoftablewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\vieworderoftablewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\vieworderoftablewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\library\\dataaccess\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\dataaccess\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\dataaccess\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\library\\respository\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\respository\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\respository\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\library\\respository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\respository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\respository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\library\\management\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\management\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\management\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\productmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\productmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\productmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\library\\dataaccess\\preorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\library\\dataaccess\\preorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1AE8FD6-9B48-4A35-9B29-740737D9F3DE}|Library\\Library.csproj|solutionrelative:library\\dataaccess\\preorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\orderdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\semester 7\\prn221\\project-prn221-main\\prn221_project_final\\final_project_prn221\\final_project_prn221\\orderdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\orderdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,275 +101,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 67,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1377497384:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:15:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:16:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:17:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:14:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:12:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:11:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:10:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:8:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:23:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:50:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:52:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderManagement.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Management\\OrderManagement.cs",
+              "RelativeDocumentMoniker": "Library\\Management\\OrderManagement.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Management\\OrderManagement.cs",
+              "RelativeToolTip": "Library\\Management\\OrderManagement.cs",
+              "ViewState": "AQIAAHkBAAAAAAAAAAAmwJ4BAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T01:26:53.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Respository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Library\\Respository\\OrderRepository.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Respository\\OrderRepository.cs",
+              "RelativeToolTip": "Library\\Respository\\OrderRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwCYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T01:26:43.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Respository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Library\\Respository\\IOrderRepository.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Respository\\IOrderRepository.cs",
+              "RelativeToolTip": "Library\\Respository\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T01:26:28.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersPage.xaml",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\OrdersPage.xaml",
+              "RelativeDocumentMoniker": "Final_Project_PRN221\\OrdersPage.xaml",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\OrdersPage.xaml",
+              "RelativeToolTip": "Final_Project_PRN221\\OrdersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-23T01:25:23.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PreOrderWindow.xaml",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\PreOrderWindow.xaml",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml",
               "RelativeToolTip": "Final_Project_PRN221\\PreOrderWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-22T13:33:11.081Z",
@@ -361,72 +168,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Number.Parsing.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\AppData\\Local\\SourceServer\\de4a98e06ff77db47d7ad83468144f999ee6e2b29c32fe5e5d55799be44e39f6\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs",
               "ToolTip": "C:\\Users\\ACER\\AppData\\Local\\SourceServer\\de4a98e06ff77db47d7ad83468144f999ee6e2b29c32fe5e5d55799be44e39f6\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs",
               "ViewState": "AQIAABgIAAAAAAAAAAAUwCQIAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:31:41.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T13:31:41.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "PreOrderWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\PreOrderWindow.xaml.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml.cs",
               "RelativeToolTip": "Final_Project_PRN221\\PreOrderWindow.xaml.cs",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAYwKAAAABTAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAYwKUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T11:03:37.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TableManagement.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Management\\TableManagement.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Management\\TableManagement.cs",
               "RelativeDocumentMoniker": "Library\\Management\\TableManagement.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Management\\TableManagement.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Management\\TableManagement.cs",
               "RelativeToolTip": "Library\\Management\\TableManagement.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAwH0AAAAAAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAYwHwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T01:30:01.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ViewOrderOfTableWindow.xaml",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
               "RelativeToolTip": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-22T10:20:37.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T10:20:37.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Test.xaml",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\Test.xaml",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\Test.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\Test.xaml",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\Test.xaml",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\Test.xaml",
               "RelativeToolTip": "Final_Project_PRN221\\Test.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-22T12:21:20.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T12:21:20.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ViewOrderOfTableWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
               "RelativeToolTip": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
               "ViewState": "AQIAAHkAAAAAAAAAAAAAwIYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -435,22 +239,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ProductsPage.xaml",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ProductsPage.xaml",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml",
               "RelativeToolTip": "Final_Project_PRN221\\ProductsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-21T15:47:49.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Bank.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\DataAccess\\Bank.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\DataAccess\\Bank.cs",
               "RelativeDocumentMoniker": "Library\\DataAccess\\Bank.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\DataAccess\\Bank.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\DataAccess\\Bank.cs",
               "RelativeToolTip": "Library\\DataAccess\\Bank.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -458,11 +262,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ITableRepository.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Respository\\ITableRepository.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Respository\\ITableRepository.cs",
               "RelativeDocumentMoniker": "Library\\Respository\\ITableRepository.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Respository\\ITableRepository.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Respository\\ITableRepository.cs",
               "RelativeToolTip": "Library\\Respository\\ITableRepository.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAWwBEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -470,11 +274,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\HomePage.xaml.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml.cs",
               "RelativeToolTip": "Final_Project_PRN221\\HomePage.xaml.cs",
               "ViewState": "AQIAADIAAAAAAAAAAADgvzcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -483,11 +287,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "TableRepository.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Respository\\TableRepository.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Respository\\TableRepository.cs",
               "RelativeDocumentMoniker": "Library\\Respository\\TableRepository.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Respository\\TableRepository.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Respository\\TableRepository.cs",
               "RelativeToolTip": "Library\\Respository\\TableRepository.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAIA2wBYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -495,22 +299,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "HomePage.xaml",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\HomePage.xaml",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml",
               "RelativeToolTip": "Final_Project_PRN221\\HomePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-22T00:49:50.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "ProductManagement.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Management\\ProductManagement.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Management\\ProductManagement.cs",
               "RelativeDocumentMoniker": "Library\\Management\\ProductManagement.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Management\\ProductManagement.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\Management\\ProductManagement.cs",
               "RelativeToolTip": "Library\\Management\\ProductManagement.cs",
               "ViewState": "AQIAACcBAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -518,11 +322,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "ProductsPage.xaml.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ProductsPage.xaml.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml.cs",
               "RelativeToolTip": "Final_Project_PRN221\\ProductsPage.xaml.cs",
               "ViewState": "AQIAAEkBAAAAAAAAAADwv2UBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -530,22 +334,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ProductMenuWindow.xaml",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductMenuWindow.xaml",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ProductMenuWindow.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ProductMenuWindow.xaml",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductMenuWindow.xaml",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\ProductMenuWindow.xaml",
               "RelativeToolTip": "Final_Project_PRN221\\ProductMenuWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-21T14:28:18.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "PreOrder.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\DataAccess\\PreOrder.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\DataAccess\\PreOrder.cs",
               "RelativeDocumentMoniker": "Library\\DataAccess\\PreOrder.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\DataAccess\\PreOrder.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Library\\DataAccess\\PreOrder.cs",
               "RelativeToolTip": "Library\\DataAccess\\PreOrder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -553,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "OrderDetailWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\OrderDetailWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\OrderDetailWindow.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\OrderDetailWindow.xaml.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\OrderDetailWindow.xaml.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\OrderDetailWindow.xaml.cs",
               "RelativeToolTip": "Final_Project_PRN221\\OrderDetailWindow.xaml.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBkAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -565,109 +369,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "OrdersPage.xaml.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\OrdersPage.xaml.cs",
+              "DocumentMoniker": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\OrdersPage.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\OrdersPage.xaml.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\OrdersPage.xaml.cs",
+              "ToolTip": "D:\\Semester 7\\PRN221\\Project-PRN221-main\\PRN221_Project_Final\\Final_Project_PRN221\\Final_Project_PRN221\\OrdersPage.xaml.cs",
               "RelativeToolTip": "Final_Project_PRN221\\OrdersPage.xaml.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAQwCsAAAA6AAAA",
+              "ViewState": "AQIAAC4BAAAAAAAAAAAtwEABAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T12:17:28.648Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 217,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:49:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:51:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:53:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:56:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1304,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:25:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:26:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:24:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:22:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1304,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "WhenOpened": "2024-07-21T12:17:28.648Z",
+              "EditorCaption": ""
             }
           ]
         }

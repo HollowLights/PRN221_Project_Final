@@ -1,4 +1,5 @@
 ﻿using Library.DataAccess;
+using Microsoft.EntityFrameworkCore;
 
 namespace Library.Management
 {
@@ -383,6 +384,32 @@ namespace Library.Management
                 {
                     // Log the exception or handle it as needed
                     throw new Exception("An error occurred while retrieving the latest order.", ex);
+                }
+            }
+        }
+
+        public List<Order> getOrderByStartTime(DateTime dateTime)
+        {
+            OrderManagement manage = new OrderManagement();
+            using (FinalProjectPrn221Context context = new FinalProjectPrn221Context())
+            {
+                try
+                {
+
+                    // Lấy danh sách đơn hàng theo StartTime hôm nay và sắp xếp theo OrderBy
+                    var list = context.Orders
+                        .Where(o => o.StartTime.Date == dateTime) // Lọc đơn hàng theo StartTime hôm nay
+                        .Include(a => a.Account)
+                        .Include(t => t.Table)
+                        .ThenInclude(t => t.Type)
+                        .OrderBy(o => o.StartTime) // Sắp xếp theo OrderById (OrderBy)
+                        .ToList();
+
+                    return list.Cast<Order>().ToList();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
                 }
             }
         }

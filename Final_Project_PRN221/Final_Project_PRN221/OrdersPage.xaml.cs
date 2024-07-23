@@ -1,7 +1,10 @@
 ﻿using Library.DataAccess;
 using Library.Respository;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -311,6 +314,91 @@ namespace Final_Project_PRN221
             MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             mainWindow.Opacity = 0.2;
             orderDetailWindow.ShowDialog();
+        }
+
+        private void btnExportOrders_Click(object sender, RoutedEventArgs e)
+        {
+            ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+            List<Order> orders = repository.getOrderByStartTime(DateTime.Today);
+            if (!orders.Any())
+            {
+                MessageBox.Show("No orders for today to export.");
+                return;
+            }
+
+            /*            string fileName = $"Orders_{DateTime.Now:yyyyMMdd}.xlsx";
+            */
+            string fileName = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), $"Orders_{DateTime.Now:yyyyMMdd}.xlsx");
+
+
+            // Tạo một file Excel mới
+            using (var package = new ExcelPackage())
+            {
+                // Thêm một worksheet
+                var worksheet = package.Workbook.Worksheets.Add("Orders");
+
+                // Thêm tiêu đề cột
+                worksheet.Cells[1, 1].Value = "Id";
+                worksheet.Cells[1, 2].Value = "Table";
+                worksheet.Cells[1, 3].Value = "Discount";
+                worksheet.Cells[1, 4].Value = "StartTime";
+                worksheet.Cells[1, 5].Value = "EndTime";
+                worksheet.Cells[1, 6].Value = "PlayTime";
+                worksheet.Cells[1, 7].Value = "Total";
+                worksheet.Cells[1, 8].Value = "OrderBy";
+
+                // Thêm dữ liệu
+                int row = 2;
+
+                foreach (var order in orders)
+                {
+                    worksheet.Cells[row, 1].Value = order.Id;
+                    worksheet.Cells[row, 2].Value = order.Table.Name;
+                    worksheet.Cells[row, 3].Value = order.Discount;
+                    worksheet.Cells[row, 4].Value = order.StartTime.ToString("yyyy-MM-dd HH:mm:ss");
+                    worksheet.Cells[row, 5].Value = order.EndTime.ToString("yyyy-MM-dd HH:mm:ss");
+                    worksheet.Cells[row, 6].Value = getTotalHoursOrder(order.StartTime, order.EndTime);
+                    worksheet.Cells[row, 7].Value = (getServiceFee(order.Id) +
+                            getTotalHoursOrder(order.StartTime, order.EndTime)
+                            * (Convert.ToDouble(order.Table.Type.PricePerHour))) * (1 - order.Discount / 100);
+                    worksheet.Cells[row, 8].Value = order.Account.FullName;
+                    row++;
+                }
+
+                // Lưu file Excel
+                var file = new FileInfo(fileName);
+                package.SaveAs(file);
+            }
+
+            MessageBox.Show($"Orders exported to {fileName}.");
+        }
+
+        public double getTotalHoursOrder(DateTime startTime, DateTime endTime)
+        {
+            double totalHours = (endTime - startTime).TotalHours;
+            if (totalHours < 0.25)
+            {
+                totalHours = 0.25;
+            }
+            return Math.Round(totalHours, 2);
+        }
+
+        public double getServiceFee(int id)
+        {
+            double total = 0;
+            using (FinalProjectPrn221Context context = new FinalProjectPrn221Context())
+            {
+                try
+                {
+                    total = (double)context.OrderDetails.Where(o => o.OrderId == id)
+                        .Sum(o => o.Product.UnitPrice * o.Quantity);
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+            return Math.Round(total, 2);
         }
     }
 }

@@ -19,5 +19,7 @@ namespace Library.Respository
         public bool updateOrder(Order order);
         public Order getOrderById(int id);
         public Order getLastestOrderOfTable(int tableId);
+        public List<Order> getOrderByStartTime(DateTime dateTime);
+
     }
 }

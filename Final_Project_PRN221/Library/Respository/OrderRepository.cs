@@ -35,5 +35,7 @@ namespace Library.Respository
         public Order getLastestOrderOfTable(int tableId)
             => OrderManagement.Instance.getOrderById(tableId);
 
+        public List<Order> getOrderByStartTime(DateTime dateTime)
+           => OrderManagement.Instance.getOrderByStartTime(dateTime);
     }
 }

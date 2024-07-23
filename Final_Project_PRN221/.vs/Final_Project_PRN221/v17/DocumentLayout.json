@@ -3,6 +3,24 @@
   "WorkspaceRootPath": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\vieworderoftablewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\vieworderoftablewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\ViewOrderOfTableWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\luckyspinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\luckyspinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\luckyspinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\luckyspinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN221\\LuckySpinPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\preorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\preorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -24,10 +42,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\test.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\test.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\vieworderoftablewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|solutionrelative:final_project_prn221\\vieworderoftablewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C6E97D6-5F28-4C6F-9095-878D63BF9E1B}|Final_Project_PRN221\\Final_Project_PRN221.csproj|d:\\prn221\\project\\prn211_project\\project-prn221-main\\final_project_prn221\\final_project_prn221\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -85,7 +99,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 67,
+          "SelectedChildIndex": 69,
           "Children": [
             {
               "$type": "Bookmark",
@@ -350,6 +364,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ViewOrderOfTableWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN221\\ViewOrderOfTableWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\ViewOrderOfTableWindow.xaml.cs",
+              "ToolTip": "D:\\PRN221\\ViewOrderOfTableWindow.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\ViewOrderOfTableWindow.xaml.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T01:38:27.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LuckySpinPage.xaml.cs",
+              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\LuckySpinPage.xaml.cs",
+              "RelativeDocumentMoniker": "Final_Project_PRN221\\LuckySpinPage.xaml.cs",
+              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\LuckySpinPage.xaml.cs",
+              "RelativeToolTip": "Final_Project_PRN221\\LuckySpinPage.xaml.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAgwJcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T01:38:19.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LuckySpinPage.xaml.cs",
+              "DocumentMoniker": "D:\\PRN221\\LuckySpinPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\LuckySpinPage.xaml.cs",
+              "ToolTip": "D:\\PRN221\\LuckySpinPage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\LuckySpinPage.xaml.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAgwJ8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T01:38:11.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LuckySpinPage.xaml",
+              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\LuckySpinPage.xaml",
+              "RelativeDocumentMoniker": "Final_Project_PRN221\\LuckySpinPage.xaml",
+              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\LuckySpinPage.xaml",
+              "RelativeToolTip": "Final_Project_PRN221\\LuckySpinPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-23T01:37:46.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewOrderOfTableWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
+              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
+              "RelativeToolTip": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAQwG0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T03:48:28.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PreOrderWindow.xaml",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\PreOrderWindow.xaml",
@@ -361,31 +439,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Number.Parsing.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\AppData\\Local\\SourceServer\\de4a98e06ff77db47d7ad83468144f999ee6e2b29c32fe5e5d55799be44e39f6\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs",
               "ToolTip": "C:\\Users\\ACER\\AppData\\Local\\SourceServer\\de4a98e06ff77db47d7ad83468144f999ee6e2b29c32fe5e5d55799be44e39f6\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs",
               "ViewState": "AQIAABgIAAAAAAAAAAAUwCQIAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T13:31:41.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T13:31:41.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PreOrderWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\PreOrderWindow.xaml.cs",
               "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\PreOrderWindow.xaml.cs",
               "RelativeToolTip": "Final_Project_PRN221\\PreOrderWindow.xaml.cs",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAYwKAAAABTAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAYwJEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T11:03:37.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TableManagement.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Management\\TableManagement.cs",
               "RelativeDocumentMoniker": "Library\\Management\\TableManagement.cs",
@@ -393,49 +470,33 @@
               "RelativeToolTip": "Library\\Management\\TableManagement.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAAwH0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T01:30:01.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T01:30:01.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ViewOrderOfTableWindow.xaml",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
               "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
               "RelativeToolTip": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-22T10:20:37.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T10:20:37.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Test.xaml",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\Test.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\Test.xaml",
               "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\Test.xaml",
               "RelativeToolTip": "Final_Project_PRN221\\Test.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-22T12:21:20.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T12:21:20.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewOrderOfTableWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
-              "ToolTip": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
-              "RelativeToolTip": "Final_Project_PRN221\\ViewOrderOfTableWindow.xaml.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAAwIYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T03:48:28.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ProductsPage.xaml",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ProductsPage.xaml",
@@ -446,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Bank.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\DataAccess\\Bank.cs",
               "RelativeDocumentMoniker": "Library\\DataAccess\\Bank.cs",
@@ -458,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ITableRepository.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Respository\\ITableRepository.cs",
               "RelativeDocumentMoniker": "Library\\Respository\\ITableRepository.cs",
@@ -470,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\HomePage.xaml.cs",
@@ -478,12 +539,11 @@
               "RelativeToolTip": "Final_Project_PRN221\\HomePage.xaml.cs",
               "ViewState": "AQIAADIAAAAAAAAAAADgvzcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T01:18:13.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T01:18:13.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "TableRepository.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Respository\\TableRepository.cs",
               "RelativeDocumentMoniker": "Library\\Respository\\TableRepository.cs",
@@ -495,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\HomePage.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\HomePage.xaml",
@@ -506,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ProductManagement.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\Management\\ProductManagement.cs",
               "RelativeDocumentMoniker": "Library\\Management\\ProductManagement.cs",
@@ -518,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "ProductsPage.xaml.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductsPage.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ProductsPage.xaml.cs",
@@ -530,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "ProductMenuWindow.xaml",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\ProductMenuWindow.xaml",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\ProductMenuWindow.xaml",
@@ -541,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "PreOrder.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Library\\DataAccess\\PreOrder.cs",
               "RelativeDocumentMoniker": "Library\\DataAccess\\PreOrder.cs",
@@ -553,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "OrderDetailWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\OrderDetailWindow.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\OrderDetailWindow.xaml.cs",
@@ -565,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "OrdersPage.xaml.cs",
               "DocumentMoniker": "D:\\PRN221\\Project\\PRN211_Project\\Project-PRN221-main\\Final_Project_PRN221\\Final_Project_PRN221\\OrdersPage.xaml.cs",
               "RelativeDocumentMoniker": "Final_Project_PRN221\\OrdersPage.xaml.cs",

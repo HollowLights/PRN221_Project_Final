@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\PRN221\Project\PRN211_Project\Project-PRN221-main\Final_Project_PRN221\Final_Project_PRN221\App.xaml
-161683184606
+17-1909682602
 
-20600288401
+21816840624
 2311059018104
-AddEmployeeWindow.xaml;AddProductWindow.xaml;ChangePassWordWindow.xaml;EditEmployeeWindow.xaml;EditProductWindow.xaml;EmployeePage.xaml;HomePage.xaml;LoginWindow.xaml;MainWindow.xaml;OrderDetailWindow.xaml;OrdersPage.xaml;PreOrderWindow.xaml;ProductMenuWindow.xaml;ProductsPage.xaml;Test.xaml;ViewOrderOfTableWindow.xaml;
+AddEmployeeWindow.xaml;AddProductWindow.xaml;ChangePassWordWindow.xaml;EditEmployeeWindow.xaml;EditProductWindow.xaml;EmployeePage.xaml;HomePage.xaml;LoginWindow.xaml;LuckySpinPage.xaml;MainWindow.xaml;OrderDetailWindow.xaml;OrdersPage.xaml;PreOrderWindow.xaml;ProductMenuWindow.xaml;ProductsPage.xaml;Test.xaml;ViewOrderOfTableWindow.xaml;
 
 True
 

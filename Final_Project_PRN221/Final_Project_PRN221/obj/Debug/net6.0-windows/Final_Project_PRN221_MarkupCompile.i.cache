@@ -9,12 +9,12 @@ Final_Project_PRN221
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\Semester 7\PRN221\Project-PRN221-main\PRN221_Project_Final\Final_Project_PRN221\Final_Project_PRN221\App.xaml
+D:\PRN221\Project\PRN211_Project\Project-PRN221-main\Final_Project_PRN221\Final_Project_PRN221\App.xaml
 161683184606
 
 20600288401
-2361680017957
-AddEmployeeWindow.xaml;AddProductWindow.xaml;ChangePassWordWindow.xaml;EditEmployeeWindow.xaml;EditProductWindow.xaml;EmployeePage.xaml;HomePage.xaml;LoginWindow.xaml;MainWindow.xaml;OrderDetailWindow.xaml;OrdersPage.xaml;PreOrderWindow.xaml;ProductMenuWindow.xaml;ProductsPage.xaml;Test.xaml;ViewOrderOfTableWindow.xaml;
+2311059018104
+AddEmployeeWindow.xaml;AddProductWindow.xaml;ChangePassWordWindow.xaml;EditEmployeeWindow.xaml;EditProductWindow.xaml;EmployeePage.xaml;HomePage.xaml;LoginWindow.xaml;LuckySpinPage.xaml;MainWindow.xaml;OrderDetailWindow.xaml;OrdersPage.xaml;PreOrderWindow.xaml;ProductMenuWindow.xaml;ProductsPage.xaml;Test.xaml;ViewOrderOfTableWindow.xaml;
 
 True
 

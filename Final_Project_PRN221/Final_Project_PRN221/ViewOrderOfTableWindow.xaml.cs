@@ -8,6 +8,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using VietQRPaymentAPI;
 
 namespace Final_Project_PRN221
@@ -56,17 +57,48 @@ namespace Final_Project_PRN221
 
         private void btnPay_Click(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Do you want pay?", "Payment", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            double serviceFee = orderRepository.getServiceFee(orderId);
+            lbServiceFee.Content = serviceFee;
+
+            double tableFee = orderRepository.getCurrentTableFee(orderId, DateTime.Now);
+            lbTableFee.Content = Math.Round(tableFee, 2);
+
+            double total = (serviceFee + tableFee);
+            if (MessageBox.Show("Do you want to pay?", "Payment", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
                 Order order = orderRepository.getOrderById(orderId);
                 order.EndTime = DateTime.Now;
                 order.Discount = int.Parse(tbDiscount.Text);
                 order.OrderBy = accountId;
+
                 if (orderRepository.updateOrder(order))
                 {
                     tableRepository.setTableActive(order.TableId, false);
-                    /*                    tableRepository.deletePreOrder(order.TableId, order.StartTime);
-                    */
+
+                    // Kiểm tra tổng số tiền
+                    if (total > 200000)
+                    {
+                        if (MessageBox.Show("Bạn có muốn quay vòng quay may mắn không?", "Lucky Spin", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                        {
+                            // Hiển thị trang vòng quay may mắn
+                            LuckySpinPage luckySpinPage = new LuckySpinPage();
+                            NavigationService navService = NavigationService.GetNavigationService(this);
+                            if (navService != null)
+                            {
+                                navService.Navigate(luckySpinPage);
+                            }
+                            else
+                            {
+                                // Nếu không thể lấy NavigationService, tạo một NavigationWindow mới
+                                NavigationWindow navWindow = new NavigationWindow
+                                {
+                                    Content = luckySpinPage
+                                };
+                                navWindow.Show();
+                            }
+                        }
+                    }
+
                     this.Close();
                     MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
                     if (mainWindow != null)
